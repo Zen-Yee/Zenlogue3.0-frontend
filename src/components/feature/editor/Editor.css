@@ -1,0 +1,31 @@
+.editor-container {
+  margin: 5%;
+  background-color: var(--primary);
+  height:90%;
+}
+
+.edit-space {
+  width: 100%;
+  overflow-y: auto;
+}
+
+.edit-space strong {
+  font-weight: bold; /* force bold to show */
+}
+
+.edit-space ul,
+.edit-space ol {
+  padding-left: 24px;
+}
+
+em {
+  font-style: italic !important;
+}
+
+/*tablets*/
+@media (max-width: 768px) {
+}
+
+/*phone*/
+@media (max-width: 600px) {
+}
